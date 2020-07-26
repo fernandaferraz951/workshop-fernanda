@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+  background-image: url(../img/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-filha {
+  text-align: center;
+}
+
+.banner-titulo {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.banner-subtitulo {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.banner-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-shadow: 1px 1px 2px rgb(243, 229, 229);
+  color: rgb(109, 51, 109);
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+  height: 40px;
+  border: 1px solid rgb(61, 37, 61);
+  transition: background-color 0.2s;
+}
+
+.banner-link:hover{
+  background-color: rgb(109, 51, 109);
+  color:#FFF;
+}
+
+.titulo-sobre {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: rgb(214, 76, 214);
+}
+
+.sobre-caixa {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-resumo {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.texto-italic {
+  font-style: italic;
+}
+
+.sobre-resumo {
+  width: 30%;
+  margin-bottom: 12px;
+  
+}
+
+.sobre-link {
+  text-decoration: none;
+}
+
+.sobre-lista {
+  margin-top: 12px;
+  line-height: 30px;
+}
+
+.sobre-habilidades{
+  margin-left: 48px;
+}
+
+.redes-link {
+  margin-top: 20px;
+  color: violet;
+  background-color: violet;
+}
+
+  .redes {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: violet;
+    margin-top:12px;
+    display:flex;
+    flex-direction:row;
+  }
+
+  @media (max-width: 720px) {
+    .sobre-caixa {
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sobre-resumo {
+      margin-bottom: 12px;
+      width: 100%;
+      padding:12px;
+      
+    }
+  }
